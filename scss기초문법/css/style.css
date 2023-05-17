@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #efefef;
+}
+body .wrap {
+  width: 100%;
+  border: 2px solid #bbb;
+  padding: 100px;
+}
+body .wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body .wrap .item {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #ddd;
+}
+body .wrap .item h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

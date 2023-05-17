@@ -1,0 +1,38 @@
+@import 'reset';
+
+$bg: #fff;
+$sizeTitle: 20px;
+$colorTit: blue;
+
+body {
+    background: #efefef;
+
+    .wrap {
+        width: 100%;
+        border: 2px solid #bbb;
+        padding: 100px;
+
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .item{
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            background: $bg;
+            float: left;
+            border-radius: 10px;
+            box-shadow: 5px 5px 20px #ddd;
+
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: $sizeTitle;
+                color: $colorTit;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
